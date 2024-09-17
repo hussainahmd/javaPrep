@@ -9,8 +9,6 @@ public class Casino {
     // enum type with constants that represent the game status
     private enum Status {CONTINUE, WON, LOST}
 
-    ;
-
     // constants that represent common rolls of the dice
     private static final int SNAKE_EYES = 2;
     private static final int TREY = 3;

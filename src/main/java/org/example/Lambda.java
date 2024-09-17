@@ -16,13 +16,14 @@ public class Lambda{
         String s = getString(() -> "Hussain");
         System.out.println(s);
 
-        Printable3 p3 = new Printable3(){
-
-            @Override
-            public String myString(){
-                return "Help";
-            }
-        };
+//        Printable3 p3 = new Printable3(){
+//
+//            @Override
+//            public String myString(){
+//                return "Help";
+//            }
+//        };
+        Printable3 p3 = () -> "Help";
         System.out.println(p3.printString());
         System.out.println(p3.getClass().getName());
     }
